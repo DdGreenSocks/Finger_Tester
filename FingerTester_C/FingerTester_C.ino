@@ -30,18 +30,17 @@ int main(void) {
 
         // Example: Set servo to 0 degrees
        
-        servo_write(97);
-        _delay_ms(4000);
+        servo_write(250);
+        //_delay_ms(4000);
 
         // Example: Set servo to 90 degrees
         
-        servo_write(316);
-        _delay_ms(4000);
+        //servo_write(400); //375
 
         // Example: Set servo to 180 degrees
         
-         servo_write(535);
-        _delay_ms(4000);
+         //servo_write(500);
+        //_delay_ms(4000);
     }
 
     return 0;
